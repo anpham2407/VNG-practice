@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 
 import App from './App';
-import Listing from './Listing';
+import Listing from './../pages/Listing';
 
 const Root = (props) => {
   return (

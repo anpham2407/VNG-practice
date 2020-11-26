@@ -1,7 +1,7 @@
 import './list.scss';
-import Feature from './../Feature';
+import Feature from './../../components/Feature';
 import {menu1, menu2} from './../../data/menu';
-import Icon from './../Icon';
+import Icon from './../../components/Icon';
 const Listing = () => {
   return (
     <div className="listing">
@@ -10,7 +10,7 @@ const Listing = () => {
       </div>
       <div className="container pt">
         <div className="searchInput">
-          <div className="searchInput__icon"><span class="material-icons">search</span></div>
+          <div className="searchInput__icon"><Icon name="search"/></div>
           <div className="searchInput__col"><input className="searchInput__form-control" type="text" placeholder="Tìm kiếm tên sản phẩm..." /></div>
         </div>
         <div className="item">
