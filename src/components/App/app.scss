@@ -1,0 +1,87 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body, html {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  font-size: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto","Helvetica Neue","Arial","sans-serif";
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #212529;
+  text-align: left;
+  line-height: 1;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+button{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  &:focus{
+    border: none;
+    outline: none;
+  }
+}
+input{
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 0;
+  padding: .6em .7em;
+  border: 1px solid #78797b;
+  font-size: 13px;
+  font-family: inherit;
+  line-height: 1.15384615;
+  scrollbar-color: var(--scrollbar) transparent;
+  box-sizing: border-box;
+  &:focus{
+    border: none;
+    outline: none;
+  }
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
