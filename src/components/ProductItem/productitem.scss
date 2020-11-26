@@ -8,6 +8,9 @@
     flex-wrap: wrap;
     padding-top: 15px;
     padding-bottom: 15px;
+    &:not(:last-child) {
+      border-bottom: 1px solid #eaeaea;
+    }
     &__content{
       padding: 0 10px;
     }

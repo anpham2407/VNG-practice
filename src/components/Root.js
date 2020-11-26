@@ -9,6 +9,7 @@ import {
 
 import App from './App';
 import Listing from './../pages/Listing';
+import ConfirmPayment from './../pages/ConfirmPayment';
 
 const Root = (props) => {
   return (
@@ -16,6 +17,7 @@ const Root = (props) => {
       <App>
         <Switch>
           <Route exact path="/" component={Listing} />
+          <Route exact path="/confirm" component={ConfirmPayment} />
         </Switch>
       </App>
     </Router>
