@@ -6,22 +6,22 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
+import Listing from '../pages/Listing';
+import ConfirmPayment from '../pages/ConfirmPayment';
+import Scroll from '../pages/Scroll';
 
-import App from './App';
-import Listing from './../pages/Listing';
-import ConfirmPayment from './../pages/ConfirmPayment';
-
-const Root = (props) => {
+const App = (props) => {
   return (
     <Router>
-      <App>
+      <div className="main">
         <Switch>
           <Route exact path="/" component={Listing} />
           <Route exact path="/confirm" component={ConfirmPayment} />
+          <Route exact path="/scrollspy" component={Scroll} />
         </Switch>
-      </App>
+      </div>
     </Router>
   );
 };
 
-export default Root;
+export default App;

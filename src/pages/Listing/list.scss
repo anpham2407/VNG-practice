@@ -81,6 +81,9 @@
   padding: 2px 20px;
   border-radius: 20px;
   font-size: 14px;
+  height: auto;
+  line-height: 1;
+  border: none;
   &.blue{
     background-color:lighten( #008fe5, 45%);
     color: #008fe5;

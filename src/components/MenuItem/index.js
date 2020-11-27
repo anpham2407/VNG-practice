@@ -37,10 +37,12 @@ const MenuItem = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="item-res__edit">
-                    <span className="textlink item-res__link">Chỉnh sửa</span>
-                    <span className="textlink item-res__link">x2</span>
-                </div>
+                {!!props.data.edit &&
+                    <div className="item-res__edit">
+                        <span className="textlink item-res__link">Chỉnh sửa</span>
+                        <span className="textlink item-res__link">x2</span>
+                    </div>
+                }
             </div>
             
             {/* <div className="flex-row"></div> */}

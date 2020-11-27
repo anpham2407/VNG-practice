@@ -1,13 +1,13 @@
 import './topbar.scss';
 import Icon from './../Icon';
-const Sidebar = () => {
+const Topbar = (props) => {
   return (
     <header className="header">
         <button className="header__button">
             <Icon className="header__icon--fix" name="navigate_before"/>
         </button>
         <div className="header__title">
-            Hightland Coffee
+            {!!props.title && props.title}
         </div>
         <button className="header__button">
             <Icon className="header__icon--fix" name="more_horiz"/>
@@ -16,4 +16,4 @@ const Sidebar = () => {
   );
 }
 
-export default Sidebar;
+export default Topbar;

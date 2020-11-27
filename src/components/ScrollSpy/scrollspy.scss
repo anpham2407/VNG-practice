@@ -1,0 +1,40 @@
+.links-container {
+  width: 100%;
+  height: 50px;
+  background-color: #a11725;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  a {
+    color: #ffffffbd;
+    text-decoration: none;
+    position: relative;
+    font-size: 16px;
+    &.active {
+      color: #fff;
+      font-weight: 700;
+      &:after{
+        content: "";
+        border-bottom: 2px solid  #ecaf66;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: -19px;
+      }
+    }
+  }
+}
+
+.targetScrollSection {
+  width: 100%;
+  margin-top: 20px;
+}
+.target-sections{
+  padding-top: 50px;
+}
+.targetScrollSection {
+  width: 100%;
+  margin-top: 20px;
+}
