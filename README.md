@@ -1,3 +1,10 @@
+# Practice test 1: cut html/css
+ - page 1: http://localhost:3000/
+ - page 2: http://localhost:3000/confirm
+
+# Practice test 2: handle scrollspy
+ - page 3: http://localhost:3000/scrollspy 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,152 @@
+.confirm{
+  height: inherit;
+}
+.delivery-status{
+  font-size: 20px;
+  margin-top: 0;
+}
+.row-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.textlink{
+  color: #0190f3;
+}
+.item-res{
+  &__link{
+    margin-top: 5px;
+    display: inline-block;
+  }
+  &__address{
+    font-size: 14px;
+    color: #979797;
+    padding-top: 10px;
+  }
+}
+.time{
+  margin-top: 15px;
+  &__tagline-time{
+    font-size: 14px;
+    color: #979797;
+  }
+  &__display-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  &__icon{
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+    &.small{
+      span{
+        font-size: 16px;
+        color: #b5b5b5;
+      }
+    }
+  }
+  &__text{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 0 10px;
+    font-size: 14px;
+  }
+}
+.flex-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .icon{
+    span{
+      font-size: 18px;
+      color: #b5b5b5;
+    }
+  }
+  .text{
+    padding: 0 10px;
+    font-size: 14px;
+  }
+}
+.note{
+  margin-bottom: 40px;
+  margin-top: 10px;
+  .text{
+    color: #bbbbbb
+  }
+}
+.col-label{
+  font-size: 14px;
+  text-align: left;
+}
+.col-value{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+  &.green{
+    color: #52ad34;
+  }
+}
+.amount{
+  .flex-row{
+    padding: 15px 0;
+  }
+  .flex-row:not(:last-child){
+    border-bottom: 1px solid #eaeaea;
+  }
+  &__total{
+    .col-value{
+      font-size: 22px;
+    }
+  }
+}
+.discount-code{
+  margin: 30px 0;
+  &__title{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  &__body{
+    margin: 15px 0; 
+  }
+  &__label{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  &__firsticon{
+    margin: 0 10px 0 15px;
+  }
+  &__lasticon{
+    margin-left: 10px;
+  }
+  &__text{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  &__value{
+    text-align: right;
+    button{
+      text-transform: uppercase;
+    }
+  }
+}
+.apply-pay{
+  padding-bottom: 20px;
+  &__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    span{
+      font-size: 14px;
+      color: #636363;
+    }
+    img{
+      width: 40px;
+      margin-left: 10px;
+    }
+  }
+}

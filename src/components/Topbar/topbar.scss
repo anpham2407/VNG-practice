@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    &__button{
+        padding: 8px;
+        border: none;
+        height: unset;
+        line-height: normal;
+        background-color: transparent;
+    }
+    &__icon--fix{
+        font-size: 29px;
+    }
+    &__title{
+        flex: 1 1 0;
+        text-align: center;
+        font-size: 18px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+    }
+}
