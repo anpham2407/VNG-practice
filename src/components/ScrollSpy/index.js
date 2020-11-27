@@ -42,8 +42,8 @@ const ScrollSpy = () => {
     <div className="scrollspy">
       <div className="links-container">
         <a className="active" href="#firstSection">Cà Phê</a>
-        <a href="#secondSection">Bánh ngọt</a>
-        <a href="#thirdSection">Trà</a>
+        <a href="#secondSection">Trà</a>
+        <a href="#thirdSection">Bánh ngọt</a>
         <a href="#fifthSection">Bánh mì</a>
       </div>
       <div className="container pt">
