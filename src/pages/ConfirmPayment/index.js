@@ -3,6 +3,7 @@ import Feature from '../../components/Feature';
 import ProductItem from '../../components/ProductItem';
 import {menu1, menu2} from '../../data/menu';
 import Icon from '../../components/Icon';
+import Button from '../../components/Button';
 const ConfirmPayment = () => {
   return (
     <div className="confirm">
@@ -40,6 +41,62 @@ const ConfirmPayment = () => {
             heading="Thông tin đơn hàng"
             data={menu2}
           />
+          <div className="amount">
+            <div className="flex-row">
+              <div className="col-auto col-label">
+                Tạm tính
+              </div>
+              <div className="col col-value">
+                117.000đ
+              </div>
+            </div>
+            <div className="flex-row amount__discount">
+              <div className="col-auto col-label">
+                Mã giảm giá
+              </div>
+              <div className="col col-value green">
+                -10.000đ
+              </div>
+            </div>
+            <div className="flex-row amount__total">
+              <div className="col-auto col-label">
+                Tổng tiền
+              </div>
+              <div className="col col-value">
+                107.000đ
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="clear-line"></div>
+          <div className="discount-code">
+            <h4 className="feature-heading discount-code__title">Thêm mã giảm giá</h4>
+            <div className="discount-code__body">
+              <div className="flex-row">
+                <div className="col-auto discount-code__label">
+                  <Icon className="discount-code__firsticon" color="#0190f3" name="card_giftcard" size={24}/>
+                  <span className="discount-code__text">VNGTHANG7</span>
+                  <Icon className="discount-code__lasticon" color="#52ad34" name="check_circle" size={18}/>
+                </div>
+                <div className="col discount-code__value">
+                  <Button label="Áp dụng" className="primary apply" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="clear-line"></div>
+          <div className="apply-pay">
+            <div className="apply-pay__text">
+              <span>Chỉ thanh toán bằng</span>
+              <img src="https://blogchiasekienthuc.com/wp-content/uploads/2019/07/su-dung-dich-vu-zalopay.png" />
+            </div>
+            <div className="apply-pay__button">
+              <Button label="Thanh toán 107.000đ" large fullWidth gradient className="primary apply" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

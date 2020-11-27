@@ -14,7 +14,7 @@ const Listing = () => {
           <div className="searchInput__col"><input className="searchInput__form-control" type="text" placeholder="Tìm kiếm tên sản phẩm..." /></div>
         </div>
         <div className="item">
-          <Icon className="item__icon item__icon--grren" name="verified"/>
+          <Icon className="item__icon item__icon--green" name="verified"/>
           <span className="item__name item__name--large">Hightlands Coffee - 123 Nguyễn Đình Chiểu</span>
         </div>
         <div className="item">

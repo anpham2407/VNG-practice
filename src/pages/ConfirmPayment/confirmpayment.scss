@@ -60,7 +60,7 @@
   .icon{
     span{
       font-size: 18px;
-      color: #b5b5b5
+      color: #b5b5b5;
     }
   }
   .text{
@@ -73,5 +73,79 @@
   margin-top: 10px;
   .text{
     color: #bbbbbb
+  }
+}
+.col-label{
+  font-size: 14px;
+  text-align: left;
+}
+.col-value{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+  &.green{
+    color: #52ad34;
+  }
+}
+.amount{
+  .flex-row{
+    padding: 15px 0;
+  }
+  .flex-row:not(:last-child){
+    border-bottom: 1px solid #eaeaea;
+  }
+  &__total{
+    .col-value{
+      font-size: 22px;
+    }
+  }
+}
+.discount-code{
+  margin: 30px 0;
+  &__title{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  &__body{
+    margin: 15px 0; 
+  }
+  &__label{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  &__firsticon{
+    margin: 0 10px 0 15px;
+  }
+  &__lasticon{
+    margin-left: 10px;
+  }
+  &__text{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  &__value{
+    text-align: right;
+    button{
+      text-transform: uppercase;
+    }
+  }
+}
+.apply-pay{
+  padding-bottom: 20px;
+  &__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    span{
+      font-size: 14px;
+      color: #636363;
+    }
+    img{
+      width: 40px;
+      margin-left: 10px;
+    }
   }
 }

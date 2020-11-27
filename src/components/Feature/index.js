@@ -6,7 +6,7 @@ const Feature = (props) => {
             <h4 className="feature-heading">
                 {props.heading}
             </h4>
-            {props.data.map(item => <MenuItem key={item.id} data={item}/>)}
+            {props.data.map(item => <MenuItem component="" key={item.id} data={item} type="edit"/>)}
         </section>
     );
 };

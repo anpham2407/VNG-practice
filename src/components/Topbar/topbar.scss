@@ -7,6 +7,9 @@
     font-weight: 500;
     &__button{
         padding: 8px;
+        border: none;
+        height: unset;
+        line-height: normal;
     }
     &__icon--fix{
         font-size: 29px;
