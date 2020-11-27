@@ -18,17 +18,17 @@ const ConfirmPayment = () => {
             <div className="time__tagline-time">Thời gian nhận hàng</div>
             <div className="time__display-time">
               <div className="time__icon small">
-                <Icon name="query_builder"></Icon>
+                <Icon size={16} color="#b5b5b5" name="query_builder"></Icon>
               </div>
               <div className="time__text">ASAP - 15:30, Hôm nay 30/06</div>
               <div className="time__icon">
-                <Icon name="chevron_right"></Icon>
+                <Icon size={16} color="#b5b5b5" name="chevron_right"></Icon>
               </div>
             </div>
           </div>
           <div className="flex-row note">
             <div className="col-auto icon">
-              <Icon name="sticky_note_2"></Icon>
+              <Icon size={16} color="#b5b5b5" name="sticky_note_2"></Icon>
             </div>
             <div className="col text">
               Nhập ghi chú
